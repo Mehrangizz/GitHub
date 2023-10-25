@@ -133,4 +133,99 @@ font-weight: 400;
 font-family: 'Roboto', sans-serif;
 font-size: 24px;
 font-weight: 400;
+border: #FFAE33;
+margin-left: 216px;
+}
+.chrome-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 207px;
+height: 47px;
+border-radius: 9px;
+border-color: #FFFFFF ;
+background-color: #fff;
+
+}
+.chrome-button h4{
+  margin-left: 10px;
+}
+.chrome{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.gitlab-image{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 110px;
+}
+.gitlab-image img, .gitlab-image1 img{
+  width: 100px;
+  height: 50px;
+}
+.gitlab-image1{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 110px;
+}
+.git h4{
+  color: #12100C;
+text-align: center;
+font-family: 'Roboto';
+font-size: 32px
+}
+.git p{
+  color: rgba(18, 16, 12, 0.70);
+text-align: center;
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: 400;
+}
+.btn-bitbucket{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 262px;
+height: 46px;
+border-radius: 12px;
+background-color: #FC6D26;
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+border: none;
+}
+.btn-bitbucket h5{
+  margin-left: 20px;
+  color: #FFFFFF;
+}
+.btn-bitbucket1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 262px;
+height: 46px;
+border-radius: 12px;
+background-color: #000;
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+border: none;
+}
+.btn-bitbucket1 h5{
+  margin-left: 20px;
+  color: #FFFFFF;
+}
+.btn-bitbucket2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 262px;
+height: 46px;
+border-radius: 12px;
+background-color:#2684FF;
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+border: none;
+}
+.btn-bitbucket2 h5{
+  margin-left: 20px;
+  color: #FFFFFF;
 }
