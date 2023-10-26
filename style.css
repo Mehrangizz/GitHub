@@ -10,7 +10,8 @@
     padding: 10px 50px;
   }
   body{
-    background-color: #F5F3F4;;
+    background-color: #F5F3F4;
+    font-family: "Noto Serif", serif;
   }
   .head{
     display: flex;
@@ -47,6 +48,10 @@ margin-top: 48px;
   }
   .context{
     margin-top: 40px;
+  }
+  .context p{
+    font-family: "Noto Serif", serif;
+    color: rgba(18, 16, 12, 0.70);
   }
   .image-main{
     display: flex;
@@ -163,7 +168,7 @@ background-color: #fff;
 }
 .gitlab-image img, .gitlab-image1 img{
   width: 100px;
-  height: 50px;
+  object-fit: contain;
 }
 .gitlab-image1{
   margin-top: 100px;
@@ -183,6 +188,7 @@ text-align: center;
 font-family: 'Roboto';
 font-size: 24px;
 font-weight: 400;
+margin-top: -10px;
 }
 .btn-bitbucket{
   display: flex;
@@ -198,6 +204,10 @@ border: none;
 .btn-bitbucket h5{
   margin-left: 20px;
   color: #FFFFFF;
+}
+.btns-bitbucket button{
+  margin-bottom: 16px ;
+margin-left: 190px;
 }
 .btn-bitbucket1{
   display: flex;
@@ -228,4 +238,87 @@ border: none;
 .btn-bitbucket2 h5{
   margin-left: 20px;
   color: #FFFFFF;
+}
+.gitpod{
+  width: 151px;
+height: 31px;
+border-radius: 12px;
+background: #FFE4BC;
+border: none;
+margin-left: 245px;
+}
+.git{
+  width: 642px;
+height: 651px;
+border-radius: 20px;
+background: #FFF;
+text-align: center;
+flex-direction: column;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.btns-bitbucket{
+  margin-bottom: 64px;
+  margin-top: 62px;
+}
+.workspace-btns{
+  width: 530px;
+height: 56px;
+border-radius: 12px;
+background: #F9F9F9;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-left: 56px;
+margin-top: 12px;
+}
+.workspace-btn{
+  width: 143px;
+height: 32px;
+border-radius: 12px;
+background: #12100C;
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+color: #fff;
+margin-right: -50px;
+}
+.workspace-btns p{
+  margin-left: 25px;
+  margin-top: 18px;
+}
+.launch{
+  display: flex;
+  gap: 26px;
+  justify-content: center;
+}
+.container h3{
+  margin-top: 200px;
+}
+.footer.container{
+  background: #F9F9F9;
+  width: 1440px;
+height: 460px;
+margin-top: 160px;
+margin-left: 130px;
+}
+.footer-gitpod{
+display: flex;
+gap: 171px;
+justify-content: center;
+}
+.gitpod-ul1.h4{
+  color: #12100C;
+  font-family: "Noto Serif", serif;
+  width: 41px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.5px; /* 150% */
+}
+.gitpod-ul1{
+  text-decoration: none;
+  list-style: none;
+}
+.gitpod-ul1.p{
+  color: rgba(18, 16, 12, 0.70);
 }
